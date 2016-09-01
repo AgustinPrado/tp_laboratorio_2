@@ -1,0 +1,9 @@
+c:\users\agustin.prado\documents\visual studio 2015\Projects\tp1Laboratorio\FormCalculadora\bin\Debug\FormCalculadora.exe.config
+c:\users\agustin.prado\documents\visual studio 2015\Projects\tp1Laboratorio\FormCalculadora\bin\Debug\FormCalculadora.exe
+c:\users\agustin.prado\documents\visual studio 2015\Projects\tp1Laboratorio\FormCalculadora\bin\Debug\FormCalculadora.pdb
+c:\users\agustin.prado\documents\visual studio 2015\Projects\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.csprojResolveAssemblyReference.cache
+c:\users\agustin.prado\documents\visual studio 2015\Projects\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.Form1.resources
+c:\users\agustin.prado\documents\visual studio 2015\Projects\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.Properties.Resources.resources
+c:\users\agustin.prado\documents\visual studio 2015\Projects\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.csproj.GenerateResource.Cache
+c:\users\agustin.prado\documents\visual studio 2015\Projects\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.exe
+c:\users\agustin.prado\documents\visual studio 2015\Projects\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.pdb
