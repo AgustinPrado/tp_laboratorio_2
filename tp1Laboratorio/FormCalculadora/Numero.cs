@@ -13,9 +13,9 @@ namespace FormCalculadora
         /// <summary>
         /// Constructor por defecto. Asigna el valor 0.
         /// </summary>
-        public Numero()
+        public Numero():this((double) 0)
         {
-            this._numero = 0;
+            // Llamo al constructor que recibe un double.
         }
 
         /// <summary>
