@@ -32,8 +32,6 @@ namespace FormCalculadora
         {
             // Llamo al método limpiar.
             this.limpiar();
-            // Oculto el resultado.
-            this.lblResultado.Visible = false;
         }
 
         private void limpiar()
@@ -41,6 +39,8 @@ namespace FormCalculadora
             // Limpio los numeros del textBox.
             this.txtNumero1.Clear();
             this.txtNumero2.Clear();
+            // Oculto el resultado.
+            this.lblResultado.Visible = false;
         }
     }
 }
