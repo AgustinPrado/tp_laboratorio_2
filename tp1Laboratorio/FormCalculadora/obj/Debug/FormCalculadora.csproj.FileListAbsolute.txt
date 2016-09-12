@@ -16,3 +16,12 @@ D:\Prado\tp2\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.csprojReso
 D:\Prado\tp2\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.Form1.resources
 D:\Prado\tp2\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.Properties.Resources.resources
 D:\Prado\tp2\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.csproj.GenerateResource.Cache
+C:\Users\Agustin.Prado\Documents\Visual Studio 2015\Projects\tp_laboratorio_2-master\tp1Laboratorio\FormCalculadora\bin\Debug\FormCalculadora.exe.config
+C:\Users\Agustin.Prado\Documents\Visual Studio 2015\Projects\tp_laboratorio_2-master\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.exe
+C:\Users\Agustin.Prado\Documents\Visual Studio 2015\Projects\tp_laboratorio_2-master\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.pdb
+C:\Users\Agustin.Prado\Documents\Visual Studio 2015\Projects\tp_laboratorio_2-master\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.csprojResolveAssemblyReference.cache
+C:\Users\Agustin.Prado\Documents\Visual Studio 2015\Projects\tp_laboratorio_2-master\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.Form1.resources
+C:\Users\Agustin.Prado\Documents\Visual Studio 2015\Projects\tp_laboratorio_2-master\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.Properties.Resources.resources
+C:\Users\Agustin.Prado\Documents\Visual Studio 2015\Projects\tp_laboratorio_2-master\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.csproj.GenerateResource.Cache
+C:\Users\Agustin.Prado\Documents\Visual Studio 2015\Projects\tp_laboratorio_2-master\tp1Laboratorio\FormCalculadora\bin\Debug\FormCalculadora.exe
+C:\Users\Agustin.Prado\Documents\Visual Studio 2015\Projects\tp_laboratorio_2-master\tp1Laboratorio\FormCalculadora\bin\Debug\FormCalculadora.pdb

@@ -21,16 +21,36 @@ namespace FormCalculadora
             switch(Calculadora.validarOperador(operador))
             {
                 case "+":
+                    #region DEPRECATED POR SOBRECARGA DE OPERADOR
+                    /*
                     return numero1.getNumero() + numero2.getNumero();
+                    */
+                    #endregion
+                    return numero1 + numero2;
                 case "-":
+                    #region DEPRECATED POR SOBRECARGA DE OPERADOR
+                    /*
                     return numero1.getNumero() - numero2.getNumero();
+                    */
+                    #endregion
+                    return numero1 - numero2;
                 case "/":
+                    #region DEPRECATED POR SOBRECARGA DE OPERADOR
+                    /*
                     // Si el divisor es 0, devuelve como resultado 0.
-                    if(numero2.getNumero() != 0)
+                    if (numero2.getNumero() != 0)
                         return numero1.getNumero() / numero2.getNumero();
                     return 0;
+                    */
+                    #endregion
+                    return numero1 / numero2;
                 case "*":
+                    #region DEPRECATED POR SOBRECARGA DE OPERADOR
+                    /*
                     return numero1.getNumero() * numero2.getNumero();
+                    */
+                    #endregion
+                    return numero1 * numero2;
                 default:
                     // Nunca debería entrar acá, pero por las dudas devuelve como resultado 0.
                     return 0;
