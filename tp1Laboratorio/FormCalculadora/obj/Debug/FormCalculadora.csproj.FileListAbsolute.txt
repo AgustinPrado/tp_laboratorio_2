@@ -25,3 +25,6 @@ C:\Users\Agustin.Prado\Documents\Visual Studio 2015\Projects\tp_laboratorio_2-ma
 C:\Users\Agustin.Prado\Documents\Visual Studio 2015\Projects\tp_laboratorio_2-master\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.csproj.GenerateResource.Cache
 C:\Users\Agustin.Prado\Documents\Visual Studio 2015\Projects\tp_laboratorio_2-master\tp1Laboratorio\FormCalculadora\bin\Debug\FormCalculadora.exe
 C:\Users\Agustin.Prado\Documents\Visual Studio 2015\Projects\tp_laboratorio_2-master\tp1Laboratorio\FormCalculadora\bin\Debug\FormCalculadora.pdb
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp1Laboratorio\FormCalculadora\bin\Debug\FormCalculadora.exe.config
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.exe
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp1Laboratorio\FormCalculadora\obj\Debug\FormCalculadora.pdb

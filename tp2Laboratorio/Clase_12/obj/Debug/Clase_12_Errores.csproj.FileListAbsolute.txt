@@ -1,0 +1,34 @@
+D:\Federico\VB .Net\Visual C#\utn\Clases\Clase_1\Clase_12\bin\Debug\Clase_12.exe.config
+D:\Federico\VB .Net\Visual C#\utn\Clases\Clase_1\Clase_12\bin\Debug\Clase_12.exe
+D:\Federico\VB .Net\Visual C#\utn\Clases\Clase_1\Clase_12\bin\Debug\Clase_12.pdb
+D:\Federico\VB .Net\Visual C#\utn\Clases\Clase_1\Clase_12\bin\Debug\Clase_12_Library.dll
+D:\Federico\VB .Net\Visual C#\utn\Clases\Clase_1\Clase_12\bin\Debug\Clase_12_Library.pdb
+D:\Federico\VB .Net\Visual C#\utn\Clases\Clase_1\Clase_12\obj\Debug\Clase_12_Errores.csprojResolveAssemblyReference.cache
+D:\Federico\VB .Net\Visual C#\utn\Clases\Clase_1\Clase_12\obj\Debug\Clase_12.exe
+D:\Federico\VB .Net\Visual C#\utn\Clases\Clase_1\Clase_12\obj\Debug\Clase_12.pdb
+D:\Federico\VB .Net\Visual C#\utn\Clases\Final_Clase_12\Clase_12\bin\Debug\Clase_12.exe.config
+D:\Federico\VB .Net\Visual C#\utn\Clases\Final_Clase_12\Clase_12\obj\Debug\Clase_12.exe
+D:\Federico\VB .Net\Visual C#\utn\Clases\Final_Clase_12\Clase_12\obj\Debug\Clase_12.pdb
+D:\Federico\VB .Net\Visual C#\utn\Clases\Final_Clase_12\Clase_12\bin\Debug\Clase_12.exe
+D:\Federico\VB .Net\Visual C#\utn\Clases\Final_Clase_12\Clase_12\bin\Debug\Clase_12.pdb
+D:\Federico\VB .Net\Visual C#\utn\Clases\Final_Clase_12\Clase_12\bin\Debug\Clase_12_Library.dll
+D:\Federico\VB .Net\Visual C#\utn\Clases\Final_Clase_12\Clase_12\bin\Debug\Clase_12_Library.pdb
+D:\Federico\VB .Net\Visual C#\utn\Clases\Final_Clase_12\Clase_12\obj\Debug\Clase_12_Errores.csprojResolveAssemblyReference.cache
+D:\Federico\VB .Net\Visual C#\utn\Clases\Alumno_Clase_12\Clase_12\bin\Debug\Clase_12.exe.config
+D:\Federico\VB .Net\Visual C#\utn\Clases\Alumno_Clase_12\Clase_12\obj\Debug\Clase_12.exe
+D:\Federico\VB .Net\Visual C#\utn\Clases\Alumno_Clase_12\Clase_12\obj\Debug\Clase_12.pdb
+C:\Users\Agustín\Desktop\Esquema-TP-2\Alumno_Clase_12\Clase_12\bin\Debug\Clase_12.exe.config
+C:\Users\Agustín\Desktop\Esquema-TP-2\Alumno_Clase_12\Clase_12\obj\Debug\Clase_12.exe
+C:\Users\Agustín\Desktop\Esquema-TP-2\Alumno_Clase_12\Clase_12\obj\Debug\Clase_12.pdb
+C:\Users\Agustín\Desktop\Esquema-TP-2\Alumno_Clase_12\Clase_12\obj\Debug\Clase_12_Errores.csprojResolveAssemblyReference.cache
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Alumno_Clase_12\Clase_12\bin\Debug\Clase_12.exe.config
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Alumno_Clase_12\Clase_12\obj\Debug\Clase_12.exe
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Alumno_Clase_12\Clase_12\obj\Debug\Clase_12.pdb
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Clase_12\bin\Debug\Clase_12.exe.config
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Clase_12\obj\Debug\Clase_12.exe
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Clase_12\obj\Debug\Clase_12.pdb
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Clase_12\bin\Debug\Clase_12.exe
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Clase_12\bin\Debug\Clase_12.pdb
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Clase_12\bin\Debug\Clase_12_Library.dll
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Clase_12\bin\Debug\Clase_12_Library.pdb
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Clase_12\obj\Debug\Clase_12_Errores.csprojResolveAssemblyReference.cache
