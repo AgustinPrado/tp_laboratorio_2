@@ -16,3 +16,8 @@ C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Clase_12_Library\bin
 C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Clase_12_Library\obj\Debug\Clase_12_Library.csprojResolveAssemblyReference.cache
 C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Clase_12_Library\obj\Debug\Clase_12_Library.dll
 C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Clase_12_Library\obj\Debug\Clase_12_Library.pdb
+C:\Users\Carito\Desktop\Agus\tp_laboratorio_2\tp2Laboratorio\Clase_12_Library\bin\Debug\Clase_12_Library.dll
+C:\Users\Carito\Desktop\Agus\tp_laboratorio_2\tp2Laboratorio\Clase_12_Library\bin\Debug\Clase_12_Library.pdb
+C:\Users\Carito\Desktop\Agus\tp_laboratorio_2\tp2Laboratorio\Clase_12_Library\obj\Debug\Clase_12_Library.csprojResolveAssemblyReference.cache
+C:\Users\Carito\Desktop\Agus\tp_laboratorio_2\tp2Laboratorio\Clase_12_Library\obj\Debug\Clase_12_Library.dll
+C:\Users\Carito\Desktop\Agus\tp_laboratorio_2\tp2Laboratorio\Clase_12_Library\obj\Debug\Clase_12_Library.pdb

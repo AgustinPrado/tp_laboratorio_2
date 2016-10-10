@@ -10,6 +10,12 @@ namespace Clase_12_Library
 {
     public class Moto : Vehiculo
     {
+        /// <summary>
+        /// Constructor por defecto para crear una Moto.
+        /// </summary>
+        /// <param name="marca">Marca de la moto.</param>
+        /// <param name="patente">Patente de la moto.</param>
+        /// <param name="color">Color de la moto.</param>
         public Moto(EMarca marca, string patente, ConsoleColor color)
             : base(patente, marca, color)
         {
@@ -25,7 +31,11 @@ namespace Clase_12_Library
             }
         }
 
-        public override string Mostrar()
+        /// <summary>
+        /// Devuelve todos los datos de la Moto.
+        /// </summary>
+        /// <returns>Datos de la Moto.</returns>
+        public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 

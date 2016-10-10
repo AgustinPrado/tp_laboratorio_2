@@ -22,6 +22,12 @@ namespace Clase_12_Library_2
         /// </summary>
         public abstract short CantidadRuedas { get; }
 
+        /// <summary>
+        /// Constructor por defecto para crear un Vehículo.
+        /// </summary>
+        /// <param name="patente">Patente del vehículo.</param>
+        /// <param name="marca">Marca del vehículo.</param>
+        /// <param name="color">Color del vehículo.</param>
         public Vehiculo(string patente, EMarca marca, ConsoleColor color)
         {
             this._patente = patente;
@@ -29,6 +35,10 @@ namespace Clase_12_Library_2
             this._color = color;
         }
 
+        /// <summary>
+        /// Devuelve los datos del Vehículo.
+        /// </summary>
+        /// <returns>Datos del Vehículo.</returns>
         public virtual string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
@@ -44,9 +54,9 @@ namespace Clase_12_Library_2
         /// <summary>
         /// Dos vehículos son iguales si comparten la misma patente
         /// </summary>
-        /// <param name="v1"></param>
-        /// <param name="v2"></param>
-        /// <returns></returns>
+        /// <param name="v1">Vehículo 1.</param>
+        /// <param name="v2">Vehículo 2.</param>
+        /// <returns>True si son iguales, False si son distintos.</returns>
         public static bool operator ==(Vehiculo v1, Vehiculo v2)
         {
             return (String.Compare(v1._patente, v2._patente) == 0);
@@ -54,9 +64,9 @@ namespace Clase_12_Library_2
         /// <summary>
         /// Dos vehículos son distintos si su patente es distinta
         /// </summary>
-        /// <param name="v1"></param>
-        /// <param name="v2"></param>
-        /// <returns></returns>
+        /// <param name="v1">Vehículo 1.</param>
+        /// <param name="v2">Vehículo 2.</param>
+        /// <returns>True si son distintos, False si son iguales.</returns>
         public static bool operator !=(Vehiculo v1, Vehiculo v2)
         {
             return !(v1 == v2);

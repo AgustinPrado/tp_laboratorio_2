@@ -21,6 +21,10 @@ namespace Clase_12_Library
         {
             this._vehiculos = new List<Vehiculo>();
         }
+        /// <summary>
+        /// Constructor público que recibe el espacio disponible.
+        /// </summary>
+        /// <param name="espacioDisponible">Espacio dispobible de la concecionaria.</param>
         public Concecionaria(int espacioDisponible)
             : this()
         {
@@ -30,9 +34,9 @@ namespace Clase_12_Library
 
         #region "Sobrecargas"
         /// <summary>
-        /// Muestro la concecionaria y TODOS los vehículos
+        /// Muestro la concecionaria y TODOS los vehículos.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Toda la información de la concecionaria.</returns>
         public override string ToString()
         {
             return Concecionaria.Mostrar(this, ETipo.Todos);
@@ -42,12 +46,12 @@ namespace Clase_12_Library
         #region "Métodos"
 
         /// <summary>
-        /// Expone los datos de la concecionaria y sus vehículos (incluidas sus herencias)
-        /// SOLO del tipo requerido
+        /// Expone los datos de la concecionaria y sus vehículos (incluidas sus herencias).
+        /// SOLO del tipo requerido.
         /// </summary>
-        /// <param name="concecionaria">Concecionaria a exponer</param>
-        /// <param name="ETipo">Tipos de Vehiculos a mostrar</param>
-        /// <returns></returns>
+        /// <param name="concecionaria">Concecionaria a exponer.</param>
+        /// <param name="ETipo">Tipos de Vehiculos a mostrar.</param>
+        /// <returns>Información del tipo requerido de la concecionaria.</returns>
         public static string Mostrar(Concecionaria concecionaria, ETipo tipoDeVehiculo)
         {
             StringBuilder sb = new StringBuilder();
@@ -82,11 +86,11 @@ namespace Clase_12_Library
 
         #region "Operadores"
         /// <summary>
-        /// Agregará un vehículo a la concecionaria, siempre que haya espacio disponible
+        /// Agregará un vehículo a la concecionaria, siempre que haya espacio disponible.
         /// </summary>
-        /// <param name="concecionaria">Objeto del tipo Concecionaria donde se agregará el vehículo</param>
-        /// <param name="vehiculo">Objeto del tipo Vehículo a agregar</param>
-        /// <returns></returns>
+        /// <param name="concecionaria">Objeto del tipo Concecionaria donde se agregará el vehículo.</param>
+        /// <param name="vehiculo">Objeto del tipo Vehículo a agregar.</param>
+        /// <returns>Objeto del tipo Concecionaria con el Vehículo agregado.</returns>
         public static Concecionaria operator +(Concecionaria concecionaria, Vehiculo vehiculo)
         {
             if (concecionaria._vehiculos.Count >= concecionaria._espacioDisponible)
@@ -101,11 +105,11 @@ namespace Clase_12_Library
             return concecionaria;
         }
         /// <summary>
-        /// Quitará un vehículo de la concecionaria
+        /// Quitará un vehículo de la concecionaria.
         /// </summary>
-        /// <param name="concecionaria">Objeto del tipo Concecionaria donde se agregará el vehículo</param>
-        /// <param name="vehiculo">Objeto del tipo Vehículo a agregar</param>
-        /// <returns></returns>
+        /// <param name="concecionaria">Objeto del tipo Concecionaria donde se quitará el vehículo.</param>
+        /// <param name="vehiculo">Objeto del tipo Vehículo a quitar.</param>
+        /// <returns>Objeto del tipo Concecionaria con el Vehículo ya quitado.</returns>
         public static Concecionaria operator -(Concecionaria concecionaria, Vehiculo vehiculo)
         {
             foreach (Vehiculo v in concecionaria._vehiculos)

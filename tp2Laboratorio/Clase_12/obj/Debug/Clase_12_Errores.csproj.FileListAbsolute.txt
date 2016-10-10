@@ -32,3 +32,11 @@ C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Clase_12\bin\Debug\C
 C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Clase_12\bin\Debug\Clase_12_Library.dll
 C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Clase_12\bin\Debug\Clase_12_Library.pdb
 C:\Users\Agustín\Documents\tp_laboratorio_2\tp2Laboratorio\Clase_12\obj\Debug\Clase_12_Errores.csprojResolveAssemblyReference.cache
+C:\Users\Carito\Desktop\Agus\tp_laboratorio_2\tp2Laboratorio\Clase_12\bin\Debug\Clase_12.exe.config
+C:\Users\Carito\Desktop\Agus\tp_laboratorio_2\tp2Laboratorio\Clase_12\obj\Debug\Clase_12.exe
+C:\Users\Carito\Desktop\Agus\tp_laboratorio_2\tp2Laboratorio\Clase_12\obj\Debug\Clase_12.pdb
+C:\Users\Carito\Desktop\Agus\tp_laboratorio_2\tp2Laboratorio\Clase_12\bin\Debug\Clase_12.exe
+C:\Users\Carito\Desktop\Agus\tp_laboratorio_2\tp2Laboratorio\Clase_12\bin\Debug\Clase_12.pdb
+C:\Users\Carito\Desktop\Agus\tp_laboratorio_2\tp2Laboratorio\Clase_12\bin\Debug\Clase_12_Library.dll
+C:\Users\Carito\Desktop\Agus\tp_laboratorio_2\tp2Laboratorio\Clase_12\bin\Debug\Clase_12_Library.pdb
+C:\Users\Carito\Desktop\Agus\tp_laboratorio_2\tp2Laboratorio\Clase_12\obj\Debug\Clase_12_Errores.csprojResolveAssemblyReference.cache

@@ -9,6 +9,12 @@ namespace Clase_12_Library
 {
     public class Camion : Vehiculo
     {
+        /// <summary>
+        /// Constructor por defecto para crear un Camión.
+        /// </summary>
+        /// <param name="marca">Marca del camión</param>
+        /// <param name="patente">Patente del camión.</param>
+        /// <param name="color">Color del camión.</param>
         public Camion(EMarca marca, string patente, ConsoleColor color)
             : base(patente, marca, color)
         {
@@ -24,7 +30,11 @@ namespace Clase_12_Library
             }
         }
 
-        public override string Mostrar()
+        /// <summary>
+        /// Devuelve todos los datos del Camión.
+        /// </summary>
+        /// <returns>Datos del Camión.</returns>
+        public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 
