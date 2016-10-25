@@ -1,0 +1,5 @@
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesAbstractas\bin\Debug\EntidadesAbstractas.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesAbstractas\bin\Debug\EntidadesAbstractas.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.csprojResolveAssemblyReference.cache
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.pdb
