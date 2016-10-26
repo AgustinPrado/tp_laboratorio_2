@@ -1,0 +1,5 @@
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\Excepciones\bin\Debug\Excepciones.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\Excepciones\bin\Debug\Excepciones.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\Excepciones\obj\Debug\Excepciones.csprojResolveAssemblyReference.cache
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\Excepciones\obj\Debug\Excepciones.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\Excepciones\obj\Debug\Excepciones.pdb

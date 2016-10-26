@@ -3,3 +3,5 @@ D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesAbstractas\bin\Debug\E
 D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.csprojResolveAssemblyReference.cache
 D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.dll
 D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesAbstractas\bin\Debug\Excepciones.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesAbstractas\bin\Debug\Excepciones.pdb
