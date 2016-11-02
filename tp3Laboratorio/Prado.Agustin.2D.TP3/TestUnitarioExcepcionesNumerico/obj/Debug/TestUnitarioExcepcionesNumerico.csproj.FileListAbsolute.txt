@@ -1,0 +1,9 @@
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\bin\Debug\TestUnitarioExcepcionesNumerico.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\bin\Debug\TestUnitarioExcepcionesNumerico.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\bin\Debug\EntidadesAbstractas.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\bin\Debug\Excepciones.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\bin\Debug\EntidadesAbstractas.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\bin\Debug\Excepciones.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\obj\Debug\TestUnitarioExcepcionesNumerico.csprojResolveAssemblyReference.cache
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\obj\Debug\TestUnitarioExcepcionesNumerico.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\obj\Debug\TestUnitarioExcepcionesNumerico.pdb

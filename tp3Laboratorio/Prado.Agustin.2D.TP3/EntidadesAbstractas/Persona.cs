@@ -21,8 +21,7 @@ namespace EntidadesAbstractas
         {
             set
             {
-                // VALIDAR
-                this._apellido = value;
+                this._apellido = this.ValidarNombreApellido(value);
             }
             get
             {
@@ -34,8 +33,7 @@ namespace EntidadesAbstractas
         {
             set
             {
-                // VALIDAR
-                this._nombre = value;
+                this._nombre = this.ValidarNombreApellido(value);
             }
             get
             {
@@ -59,7 +57,6 @@ namespace EntidadesAbstractas
         {
             set
             {
-                // VALIDAR
                 this._nacionalidad = value;
             }
             get
@@ -71,7 +68,6 @@ namespace EntidadesAbstractas
         {
             set
             {
-                // VALIDAR
                 this.DNI = this.ValidarDni(this.Nacionalidad, value);
             }
         }
@@ -116,12 +112,42 @@ namespace EntidadesAbstractas
                 }
             }
             // VA A CAMBIAR LA EXCEPCION
-            throw new NacionalidadInvalidaException("La nacionalidad no se condice con el número de DNI");
+            throw new DniInvalidoException("La nacionalidad no se condice con el número de DNI");
         }
         private int ValidarDni(ENacionalidad nacionalidad, string dato)
         {
-            // VALIDAR
-            return int.Parse(dato);
+            try
+            {
+                return int.Parse(dato);
+            }
+            catch (Exception e)
+            {
+                throw new DniInvalidoException(e);
+            }
+
+        }
+
+        private string ValidarNombreApellido(string dato)
+        {
+            foreach (Char item in dato)
+            {
+                if (!Char.IsLetter(item) && item != 32)
+                {
+                    return "String no válido.";
+                }
+            }
+            return dato;
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendFormat("NOMBRE COMPLETO: {0}, {1}", 
+                this.Apellido,
+                this.Nombre);
+            sb.AppendLine("NACIONALIDAD: " + this.Nacionalidad.ToString());
+
+            return sb.ToString();
         }
         #endregion
     }

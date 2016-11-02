@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadesAbstractas", "Enti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excepciones", "Excepciones\Excepciones.csproj", "{66EEBF11-6898-4E8D-BF56-CA05B5B993F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitarioExcepcionesNumerico", "TestUnitarioExcepcionesNumerico\TestUnitarioExcepcionesNumerico.csproj", "{BF7828AD-A7C5-4882-9D10-81FBE60E61DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadesInstanciables", "EntidadesInstanciables\EntidadesInstanciables.csproj", "{9EA962D2-BAC3-47E7-A018-B8E08AADAC3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{66EEBF11-6898-4E8D-BF56-CA05B5B993F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66EEBF11-6898-4E8D-BF56-CA05B5B993F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66EEBF11-6898-4E8D-BF56-CA05B5B993F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7828AD-A7C5-4882-9D10-81FBE60E61DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7828AD-A7C5-4882-9D10-81FBE60E61DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7828AD-A7C5-4882-9D10-81FBE60E61DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7828AD-A7C5-4882-9D10-81FBE60E61DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EA962D2-BAC3-47E7-A018-B8E08AADAC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA962D2-BAC3-47E7-A018-B8E08AADAC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA962D2-BAC3-47E7-A018-B8E08AADAC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA962D2-BAC3-47E7-A018-B8E08AADAC3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
