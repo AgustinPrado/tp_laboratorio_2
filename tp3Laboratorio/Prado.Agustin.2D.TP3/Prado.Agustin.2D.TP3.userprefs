@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="EntidadesInstanciables\Jornada.cs">
+    <Files>
+      <File FileName="EntidadesAbstractas\Persona.cs" Line="138" Column="14" />
+      <File FileName="EntidadesInstanciables\Jornada.cs" Line="76" Column="4" />
+      <File FileName="EntidadesInstanciables\Instructor.cs" Line="74" Column="5" NotebookId="1" />
+      <File FileName="EntidadesInstanciables\Alumno.cs" Line="64" Column="31" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

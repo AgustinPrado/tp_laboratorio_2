@@ -7,7 +7,7 @@ using EntidadesAbstractas;
 
 namespace EntidadesInstanciables
 {
-    public class Alumno : PersonaGimnasio
+	public sealed class Alumno : PersonaGimnasio
     {
         public enum EClases
         {
@@ -40,6 +40,47 @@ namespace EntidadesInstanciables
         {
             this._estadoCuenta = estadoCuenta;
         }
-        #endregion
-    }
+		#endregion
+
+		#region MÉTODOS
+		protected override string MostrarDatos()
+		{
+			StringBuilder sb = new StringBuilder();
+
+			sb.AppendLine(base.ToString());
+			sb.AppendLine("ESTADO DE CUENTA: " + this._estadoCuenta.ToString());
+			sb.AppendLine(this.ParticiparEnClase());
+
+			return sb.ToString();
+		}
+
+		protected override string ParticiparEnClase()
+		{
+			return "TOMA CLASES DE " + this._claseQueToma.ToString();
+		}
+
+		public override string ToString()
+		{
+			return this.MostrarDatos();
+		}
+		#endregion
+		#region SOBRECARGA DE OPERADORES
+		public static bool operator !=(Alumno a, EClases clase)
+		{
+			if (clase != a._claseQueToma)
+				return true;
+			return false;
+		}
+
+		public static bool operator ==(Alumno a, EClases clase)
+		{
+			if (!(clase != a._claseQueToma))
+			{
+				if (a._estadoCuenta != EEstadoCuenta.Deudor)
+					return true;
+			}
+			return false;
+		}
+		#endregion
+	}
 }
