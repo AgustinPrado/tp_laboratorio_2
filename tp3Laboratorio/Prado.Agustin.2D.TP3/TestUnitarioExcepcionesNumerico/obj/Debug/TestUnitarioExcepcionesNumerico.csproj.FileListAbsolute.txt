@@ -7,3 +7,14 @@ D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico
 D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\obj\Debug\TestUnitarioExcepcionesNumerico.csprojResolveAssemblyReference.cache
 D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\obj\Debug\TestUnitarioExcepcionesNumerico.dll
 D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\obj\Debug\TestUnitarioExcepcionesNumerico.pdb
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\bin\Debug\TestUnitarioExcepcionesNumerico.dll
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\bin\Debug\TestUnitarioExcepcionesNumerico.pdb
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\bin\Debug\EntidadesAbstractas.dll
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\bin\Debug\Excepciones.dll
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\bin\Debug\EntidadesAbstractas.pdb
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\bin\Debug\Excepciones.pdb
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\obj\Debug\TestUnitarioExcepcionesNumerico.csprojResolveAssemblyReference.cache
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\obj\Debug\TestUnitarioExcepcionesNumerico.dll
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\obj\Debug\TestUnitarioExcepcionesNumerico.pdb

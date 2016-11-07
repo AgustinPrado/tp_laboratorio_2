@@ -3,3 +3,8 @@ D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\Excepciones\bin\Debug\Excepcion
 D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\Excepciones\obj\Debug\Excepciones.csprojResolveAssemblyReference.cache
 D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\Excepciones\obj\Debug\Excepciones.dll
 D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\Excepciones\obj\Debug\Excepciones.csprojResolveAssemblyReference.cache
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\Excepciones\obj\Debug\Excepciones.pdb

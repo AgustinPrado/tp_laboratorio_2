@@ -40,14 +40,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alumno.cs" />
+    <Compile Include="Gimnasio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Instructor.cs" />
     <Compile Include="Jornada.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Archivos\Archivos.csproj">
+      <Project>{b5ec9266-f5aa-410b-9921-dcaa25b3771b}</Project>
+      <Name>Archivos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EntidadesAbstractas\EntidadesAbstractas.csproj">
       <Project>{d2f9bb72-bbfe-45a9-84fa-453e99359ad4}</Project>
       <Name>EntidadesAbstractas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Excepciones\Excepciones.csproj">
+      <Project>{66eebf11-6898-4e8d-bf56-ca05b5b993f4}</Project>
+      <Name>Excepciones</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

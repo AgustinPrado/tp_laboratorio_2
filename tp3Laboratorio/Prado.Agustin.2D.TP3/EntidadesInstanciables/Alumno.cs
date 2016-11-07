@@ -4,18 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EntidadesAbstractas;
+using System.Xml.Serialization;
 
 namespace EntidadesInstanciables
 {
-	public sealed class Alumno : PersonaGimnasio
+    [Serializable]
+    [XmlType("Alumno")]
+    public sealed class Alumno : PersonaGimnasio
     {
-        public enum EClases
-        {
-            Crossfit,
-            Natacion,
-            Pilates,
-            Yoga
-        }
         public enum EEstadoCuenta
         {
             MesPrueba,
@@ -24,18 +20,18 @@ namespace EntidadesInstanciables
         }
 
         #region ATRIBUTOS
-        private EClases _claseQueToma;
+        private Gimnasio.EClases _claseQueToma;
         private EEstadoCuenta _estadoCuenta;
         #endregion
 
         #region CONSTRUCTORES
-        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, EClases claseQueToma)
+        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, Gimnasio.EClases claseQueToma)
             : base(id, nombre, apellido, dni, nacionalidad)
         {
             this._claseQueToma = claseQueToma;
         }
 
-        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, EClases claseQueToma, EEstadoCuenta estadoCuenta)
+        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, Gimnasio.EClases claseQueToma, EEstadoCuenta estadoCuenta)
             : this(id, nombre, apellido, dni, nacionalidad, claseQueToma)
         {
             this._estadoCuenta = estadoCuenta;
@@ -47,7 +43,7 @@ namespace EntidadesInstanciables
 		{
 			StringBuilder sb = new StringBuilder();
 
-			sb.AppendLine(base.ToString());
+			sb.AppendLine(base.MostrarDatos());
 			sb.AppendLine("ESTADO DE CUENTA: " + this._estadoCuenta.ToString());
 			sb.AppendLine(this.ParticiparEnClase());
 
@@ -64,15 +60,16 @@ namespace EntidadesInstanciables
 			return this.MostrarDatos();
 		}
 		#endregion
+
 		#region SOBRECARGA DE OPERADORES
-		public static bool operator !=(Alumno a, EClases clase)
+		public static bool operator !=(Alumno a, Gimnasio.EClases clase)
 		{
 			if (clase != a._claseQueToma)
 				return true;
 			return false;
 		}
 
-		public static bool operator ==(Alumno a, EClases clase)
+		public static bool operator ==(Alumno a, Gimnasio.EClases clase)
 		{
 			if (!(clase != a._claseQueToma))
 			{

@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadesAbstractas", "EntidadesAbstractas\EntidadesAbstractas.csproj", "{D2F9BB72-BBFE-45A9-84FA-453E99359AD4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excepciones", "Excepciones\Excepciones.csproj", "{66EEBF11-6898-4E8D-BF56-CA05B5B993F4}"
@@ -8,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitarioExcepcionesNumerico", "TestUnitarioExcepcionesNumerico\TestUnitarioExcepcionesNumerico.csproj", "{BF7828AD-A7C5-4882-9D10-81FBE60E61DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadesInstanciables", "EntidadesInstanciables\EntidadesInstanciables.csproj", "{9EA962D2-BAC3-47E7-A018-B8E08AADAC3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archivos", "Archivos\Archivos.csproj", "{B5EC9266-F5AA-410B-9921-DCAA25B3771B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{2C0807B7-AC2E-401B-BFD4-F622050536D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +37,14 @@ Global
 		{9EA962D2-BAC3-47E7-A018-B8E08AADAC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EA962D2-BAC3-47E7-A018-B8E08AADAC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EA962D2-BAC3-47E7-A018-B8E08AADAC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5EC9266-F5AA-410B-9921-DCAA25B3771B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EC9266-F5AA-410B-9921-DCAA25B3771B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EC9266-F5AA-410B-9921-DCAA25B3771B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EC9266-F5AA-410B-9921-DCAA25B3771B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0807B7-AC2E-401B-BFD4-F622050536D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0807B7-AC2E-401B-BFD4-F622050536D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0807B7-AC2E-401B-BFD4-F622050536D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0807B7-AC2E-401B-BFD4-F622050536D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

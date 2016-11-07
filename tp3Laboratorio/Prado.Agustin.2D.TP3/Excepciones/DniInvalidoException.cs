@@ -9,21 +9,21 @@ namespace Excepciones
     public class DniInvalidoException : Exception
     {
         public DniInvalidoException()
-            : this("DNI INVALIDO")
+            : this("La nacionalidad no se condice con el número de DNI.")
         {
 
         }
 
         public DniInvalidoException(Exception e)
-            : base("DNI INVALIDO", e)
+            : base("La nacionalidad no se condice con el número de DNI.", e)
         {
-            throw new NacionalidadInvalidaException("La nacionalidad no se condice con el número de DNI");
+            throw new NacionalidadInvalidaException();
         }
 
         public DniInvalidoException(string message)
             : base(message)
         {
-            throw new NacionalidadInvalidaException("La nacionalidad no se condice con el número de DNI");
+            throw new NacionalidadInvalidaException();
         }
 
         public DniInvalidoException(string message, Exception e)

@@ -4,13 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EntidadesAbstractas;
+using System.Xml.Serialization;
 
 namespace EntidadesInstanciables
 {
-	public sealed class Instructor : PersonaGimnasio
+    [Serializable]
+    [XmlType("Instructor")]
+    public sealed class Instructor : PersonaGimnasio
 	{
 		#region ATRIBUTOS
-		private Queue<Alumno.EClases> _clasesDelDia;
+		private Queue<Gimnasio.EClases> _clasesDelDia;
 		private static Random _random;
 		#endregion
 
@@ -23,7 +26,7 @@ namespace EntidadesInstanciables
 		public Instructor(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad)
             : base(id, nombre, apellido, dni, nacionalidad)
         {
-			this._clasesDelDia = new Queue<Alumno.EClases>();
+			this._clasesDelDia = new Queue<Gimnasio.EClases>();
 			_randomClases();
 		}
 		#endregion
@@ -33,7 +36,7 @@ namespace EntidadesInstanciables
 		{
 			StringBuilder sb = new StringBuilder();
 
-			sb.AppendLine(base.ToString());
+			sb.AppendLine(base.MostrarDatos());
 			sb.AppendLine(this.ParticiparEnClase());
 
 			return sb.ToString();
@@ -44,7 +47,7 @@ namespace EntidadesInstanciables
 			StringBuilder sb = new StringBuilder();
 
 			sb.AppendLine("CLASES DEL DÍA:");
-			foreach (Alumno.EClases item in this._clasesDelDia)
+			foreach (Gimnasio.EClases item in this._clasesDelDia)
 			{
 				sb.AppendLine(item.ToString());
 			}
@@ -59,15 +62,15 @@ namespace EntidadesInstanciables
 
 		private void _randomClases()
 		{
-			this._clasesDelDia.Enqueue((Alumno.EClases)_random.Next(0, 3));
-			this._clasesDelDia.Enqueue((Alumno.EClases)_random.Next(0, 3));
+			this._clasesDelDia.Enqueue((Gimnasio.EClases)_random.Next(0, 4));
+			this._clasesDelDia.Enqueue((Gimnasio.EClases)_random.Next(0, 4));
 		}
 		#endregion
 
 		#region SOBRECARGA DE OPERADORES
-		public static bool operator ==(Instructor i, Alumno.EClases clase)
+		public static bool operator ==(Instructor i, Gimnasio.EClases clase)
 		{
-			foreach (Alumno.EClases item in i._clasesDelDia)
+			foreach (Gimnasio.EClases item in i._clasesDelDia)
 			{
 				if (item == clase)
 					return true;
@@ -75,7 +78,7 @@ namespace EntidadesInstanciables
 			return false;
 		}
 
-		public static bool operator !=(Instructor i, Alumno.EClases clase)
+		public static bool operator !=(Instructor i, Gimnasio.EClases clase)
 		{
 			return !(i == clase);
 		}

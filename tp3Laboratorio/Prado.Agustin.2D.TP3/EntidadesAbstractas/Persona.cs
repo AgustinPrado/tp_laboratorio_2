@@ -111,8 +111,8 @@ namespace EntidadesAbstractas
                     return dato;
                 }
             }
-            // VA A CAMBIAR LA EXCEPCION
-            throw new DniInvalidoException("La nacionalidad no se condice con el número de DNI");
+
+            throw new DniInvalidoException();
         }
         private int ValidarDni(ENacionalidad nacionalidad, string dato)
         {
@@ -133,7 +133,7 @@ namespace EntidadesAbstractas
             {
                 if (!Char.IsLetter(item) && item != 32)
                 {
-                    return "String no válido.";
+                    return "Cadena no válida.";
                 }
             }
             return dato;
@@ -142,7 +142,7 @@ namespace EntidadesAbstractas
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("NOMBRE COMPLETO: {0}, {1}", 
+            sb.AppendFormat("NOMBRE COMPLETO: {0}, {1}\n", 
                 this.Apellido,
                 this.Nombre);
             sb.AppendLine("NACIONALIDAD: " + this.Nacionalidad.ToString());

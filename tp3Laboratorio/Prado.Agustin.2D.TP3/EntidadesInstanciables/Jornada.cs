@@ -3,15 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EntidadesAbstractas;
+using Excepciones;
+using Archivos;
+using System.Xml.Serialization;
 
 namespace EntidadesInstanciables
 {
-	public class Jornada
+    [Serializable]
+    [XmlType("Jornada")]
+    public class Jornada
 	{
 		#region ATRIBUTOS Y PROPIEDADES
 		private List<Alumno> _alumnos;
-		private Alumno.EClases _clase;
+		private Gimnasio.EClases _clase;
 		private Instructor _instructor;
 
 		public Jornada this[int i]
@@ -30,7 +34,7 @@ namespace EntidadesInstanciables
 			this._alumnos = new List<Alumno>();
 		}
 
-		public Jornada(Alumno.EClases clase, Instructor instructor)
+		public Jornada(Gimnasio.EClases clase, Instructor instructor)
 			: this()
         {
 			this._clase = clase;
@@ -44,15 +48,40 @@ namespace EntidadesInstanciables
 			StringBuilder sb = new StringBuilder();
 
 			sb.AppendLine("JORNADA:");
-			sb.AppendLine("CLASE DE " + this._clase.ToString() + " POR " + this._instructor.ToString());
+			sb.Append("CLASE DE " + this._clase.ToString() + " POR " + this._instructor.ToString());
+            sb.AppendLine("ALUMNOS:");
 			foreach (Alumno item in this._alumnos)
 			{
 				sb.AppendLine(item.ToString());
 			}
+            sb.AppendLine("<---------------------------------------------------------------->");
 
 			return sb.ToString();
 			
 		}
+
+        public static bool Guardar(Jornada jornada)
+        {
+            string pathTexto = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\jornada.txt";
+
+            Texto text = new Texto();
+
+            text.guardar(pathTexto, jornada.ToString());
+
+            return true;         
+        }
+
+        public static string Leer(Jornada jornada)
+        {
+            string pathTexto = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\jornada.txt";
+            string aux;
+
+            Texto text = new Texto();
+
+            text.leer(pathTexto, out aux);
+
+            return aux;
+        }
 		#endregion
 
 		#region SOBRECARGA DE OPERADORES
@@ -71,7 +100,7 @@ namespace EntidadesInstanciables
 			foreach (Alumno item in j._alumnos)
 			{
 				if (item.Equals(a))
-					return j;
+                    throw new AlumnoRepetidoException();
 			}
 
 			j._alumnos.Add(a);
