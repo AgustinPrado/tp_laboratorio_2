@@ -9,3 +9,14 @@ C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3
 C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesInstanciables\obj\Debug\EntidadesInstanciables.pdb
 C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesInstanciables\bin\Debug\Archivos.dll
 C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesInstanciables\bin\Debug\Archivos.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesInstanciables\bin\Debug\EntidadesInstanciables.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesInstanciables\bin\Debug\EntidadesInstanciables.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesInstanciables\bin\Debug\Archivos.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesInstanciables\bin\Debug\EntidadesAbstractas.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesInstanciables\bin\Debug\Excepciones.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesInstanciables\bin\Debug\Archivos.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesInstanciables\bin\Debug\EntidadesAbstractas.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesInstanciables\bin\Debug\Excepciones.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesInstanciables\obj\Debug\EntidadesInstanciables.csprojResolveAssemblyReference.cache
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesInstanciables\obj\Debug\EntidadesInstanciables.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\EntidadesInstanciables\obj\Debug\EntidadesInstanciables.pdb

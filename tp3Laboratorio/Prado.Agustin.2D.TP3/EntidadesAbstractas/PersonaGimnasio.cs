@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
+using System.Xml.Serialization;
 
 namespace EntidadesAbstractas
 {
+    [Serializable]
     public abstract class PersonaGimnasio : Persona
     {
         #region ATRIBUTOS
@@ -17,6 +20,11 @@ namespace EntidadesAbstractas
             : base(nombre, apellido, dni, nacionalidad)
         {
             this._indentificador = id;
+        }
+
+        public PersonaGimnasio()
+        {
+            // Para poder serializar.
         }
         #endregion
 

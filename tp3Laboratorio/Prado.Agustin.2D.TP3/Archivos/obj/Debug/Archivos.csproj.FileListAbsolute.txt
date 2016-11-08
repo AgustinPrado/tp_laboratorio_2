@@ -5,3 +5,10 @@ C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3
 C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\Archivos\obj\Debug\Archivos.pdb
 C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\Archivos\bin\Debug\Excepciones.dll
 C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\Archivos\bin\Debug\Excepciones.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\Archivos\bin\Debug\Archivos.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\Archivos\bin\Debug\Archivos.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\Archivos\bin\Debug\Excepciones.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\Archivos\bin\Debug\Excepciones.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\Archivos\obj\Debug\Archivos.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\Archivos\obj\Debug\Archivos.pdb

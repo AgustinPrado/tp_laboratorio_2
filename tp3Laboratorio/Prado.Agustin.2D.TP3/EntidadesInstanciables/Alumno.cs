@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EntidadesAbstractas;
+using System.Xml;
 using System.Xml.Serialization;
 
 namespace EntidadesInstanciables
 {
     [Serializable]
-    [XmlType("Alumno")]
     public sealed class Alumno : PersonaGimnasio
     {
         public enum EEstadoCuenta
@@ -35,6 +35,11 @@ namespace EntidadesInstanciables
             : this(id, nombre, apellido, dni, nacionalidad, claseQueToma)
         {
             this._estadoCuenta = estadoCuenta;
+        }
+
+        public Alumno()
+        {
+            // Para poder serializar.
         }
 		#endregion
 

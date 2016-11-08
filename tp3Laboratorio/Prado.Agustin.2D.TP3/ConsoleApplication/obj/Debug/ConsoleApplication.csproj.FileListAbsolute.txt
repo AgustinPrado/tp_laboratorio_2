@@ -12,3 +12,17 @@ C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3
 C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\ConsoleApplication\bin\Debug\Excepciones.pdb
 C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\ConsoleApplication\obj\Debug\ConsoleApplication.exe
 C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\ConsoleApplication\bin\Debug\Archivos.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\ConsoleApplication\bin\Debug\EntidadesAbstractas.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\ConsoleApplication\bin\Debug\EntidadesInstanciables.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\ConsoleApplication\bin\Debug\Excepciones.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\ConsoleApplication\bin\Debug\Archivos.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\ConsoleApplication\bin\Debug\EntidadesAbstractas.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\ConsoleApplication\bin\Debug\EntidadesInstanciables.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\ConsoleApplication\bin\Debug\Excepciones.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache

@@ -5,27 +5,18 @@ using System.Text;
 using System.Threading.Tasks;
 using Excepciones;
 using Archivos;
+using System.Xml;
 using System.Xml.Serialization;
 
 namespace EntidadesInstanciables
 {
     [Serializable]
-    [XmlType("Jornada")]
     public class Jornada
 	{
 		#region ATRIBUTOS Y PROPIEDADES
 		private List<Alumno> _alumnos;
 		private Gimnasio.EClases _clase;
 		private Instructor _instructor;
-
-		public Jornada this[int i]
-		{
-			get
-			{
-				// ???
-				return this;
-			}
-		}
 		#endregion
 
 		#region CONSTRUCTORES

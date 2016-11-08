@@ -5,13 +5,20 @@ using System.Text;
 using System.Threading.Tasks;
 using Excepciones;
 using Archivos;
+using EntidadesAbstractas;
+using System.Xml;
 using System.Xml.Serialization;
 
 namespace EntidadesInstanciables
 {
-    
+    // Hago los include acá porque si lo hago según la convención, me aparece un error cíclico al querer incluir
+    // la referencia de EntidadesInstanciables en EntidadesAbstractas.
+    [XmlInclude(typeof(Jornada))]
+    [XmlInclude(typeof(Instructor))]
+    [XmlInclude(typeof(Alumno))]
+    [XmlInclude(typeof(PersonaGimnasio))]
+    [XmlInclude(typeof(Persona))]
     [Serializable]
-    [XmlInclude(typeof(Alumno)), XmlInclude(typeof(Jornada)), XmlInclude(typeof(Instructor))]
     public class Gimnasio
     {
         public enum EClases
@@ -24,7 +31,23 @@ namespace EntidadesInstanciables
 
         #region ATRIBUTOS Y PROPIEDADES
         private List<Alumno> _alumnos;
+        // Para poder serializar.
+        public List<Alumno> Alumnos
+        {
+            get
+            {
+                return this._alumnos;
+            }
+        }
         private List<Instructor> _instructores;
+        // Para poder serializar.
+        public List<Instructor> Instructores
+        {
+            get
+            {
+                return this._instructores;
+            }
+        }
         private List<Jornada> _jornada;
 
         public Jornada this[int i]
@@ -120,28 +143,6 @@ namespace EntidadesInstanciables
 
         public static Gimnasio operator +(Gimnasio g, Gimnasio.EClases clase)
         {
-            /*
-            foreach (Instructor instructor in g._instructores)
-            {
-                if(instructor == clase)
-                {
-                    Jornada jornada = new Jornada(clase, instructor);
-                    
-                    foreach (Alumno alumno in g._alumnos)
-                    {
-                        if (alumno == clase)
-                            jornada += alumno;
-                    }
-
-                    g._jornada.Add(jornada);
-
-                    return g;
-                }
-            }
-
-            // EXCEPTION
-            return g;
-            */
             Jornada jornada = new Jornada(clase, (g == clase));
 
             foreach (Alumno alumno in g._alumnos)

@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EntidadesAbstractas;
+using System.Xml;
 using System.Xml.Serialization;
 
 namespace EntidadesInstanciables
 {
     [Serializable]
-    [XmlType("Instructor")]
     public sealed class Instructor : PersonaGimnasio
 	{
 		#region ATRIBUTOS
@@ -29,6 +29,11 @@ namespace EntidadesInstanciables
 			this._clasesDelDia = new Queue<Gimnasio.EClases>();
 			_randomClases();
 		}
+
+        public Instructor()
+        {
+            // Para poder serializar.
+        }
 		#endregion
 
 		#region MÉTODOS

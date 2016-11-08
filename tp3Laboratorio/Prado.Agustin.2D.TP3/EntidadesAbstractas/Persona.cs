@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Excepciones;
+using System.Xml;
+using System.Xml.Serialization;
 
 namespace EntidadesAbstractas
 {
+    [Serializable]
     public abstract class Persona
     {
         public enum ENacionalidad
@@ -92,6 +95,11 @@ namespace EntidadesAbstractas
         {
             this.StringToDNI = dni;
         }
+
+        public Persona()
+        {
+            // Para poder serializar.
+        }
         #endregion
 
         #region MÉTODOS
@@ -142,9 +150,7 @@ namespace EntidadesAbstractas
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("NOMBRE COMPLETO: {0}, {1}\n", 
-                this.Apellido,
-                this.Nombre);
+            sb.AppendLine("NOMBRE COMPLETO: " + this.Apellido + ", " + this.Nombre);
             sb.AppendLine("NACIONALIDAD: " + this.Nacionalidad.ToString());
 
             return sb.ToString();
