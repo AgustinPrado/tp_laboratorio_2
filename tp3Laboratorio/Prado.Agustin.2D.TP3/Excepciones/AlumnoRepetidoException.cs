@@ -8,6 +8,9 @@ namespace Excepciones
 {
     public class AlumnoRepetidoException : Exception
     {
+        /// <summary>
+        /// Constructor por defecto que pasa un mensaje fijo al base.
+        /// </summary>
         public AlumnoRepetidoException()
             : base("Alumno repetido.")
         {

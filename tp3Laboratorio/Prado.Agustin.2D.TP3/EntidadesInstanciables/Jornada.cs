@@ -20,11 +20,19 @@ namespace EntidadesInstanciables
 		#endregion
 
 		#region CONSTRUCTORES
+        /// <summary>
+        /// Constructor por defecto que inicializa la lista de alumnos.
+        /// </summary>
 		private Jornada()
 		{
 			this._alumnos = new List<Alumno>();
 		}
 
+        /// <summary>
+        /// Constructor que inicializa la clase y al instructor que recibe como parámetros.
+        /// </summary>
+        /// <param name="clase">Clase que se da en la jornada.</param>
+        /// <param name="instructor">Instructor que da la clase.</param>
 		public Jornada(Gimnasio.EClases clase, Instructor instructor)
 			: this()
         {
@@ -34,6 +42,10 @@ namespace EntidadesInstanciables
 		#endregion
 
 		#region MÉTODOS
+        /// <summary>
+        /// Datos de la jornada.
+        /// </summary>
+        /// <returns>Datos completos de la jornada.</returns>
 		public override string ToString()
 		{
 			StringBuilder sb = new StringBuilder();
@@ -51,6 +63,11 @@ namespace EntidadesInstanciables
 			
 		}
 
+        /// <summary>
+        /// Guarda la jornada en un archivo de texto.
+        /// </summary>
+        /// <param name="jornada">Jornada a guardar.</param>
+        /// <returns>true si guardó exitosamente.</returns>
         public static bool Guardar(Jornada jornada)
         {
             string pathTexto = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\jornada.txt";
@@ -62,7 +79,11 @@ namespace EntidadesInstanciables
             return true;         
         }
 
-        public static string Leer(Jornada jornada)
+        /// <summary>
+        /// Lee la jornada que se guardó en un archivo de texto y la devuelve como string.
+        /// </summary>
+        /// <returns>Jornada leída en formato string.</returns>
+        public static string Leer()
         {
             string pathTexto = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\jornada.txt";
             string aux;
@@ -76,16 +97,34 @@ namespace EntidadesInstanciables
 		#endregion
 
 		#region SOBRECARGA DE OPERADORES
+        /// <summary>
+        /// Compara si el alumno participa de la clase de la jornada.
+        /// </summary>
+        /// <param name="j">Jornada a comparar</param>
+        /// <param name="a">Alumno a comparar</param>
+        /// <returns></returns>
 		public static bool operator ==(Jornada j, Alumno a)
 		{
 			return (a == j._clase);
 		}
 
+        /// <summary>
+        /// Compara si el alumno no participa de la clase de la jornada.
+        /// </summary>
+        /// <param name="j">Jornada a comparar</param>
+        /// <param name="a">Alumno a comparar</param>
+        /// <returns></returns>
 		public static bool operator !=(Jornada j, Alumno a)
 		{
 			return !(j == a);
 		}
 
+        /// <summary>
+        /// Agrega un alumno a la jornada.
+        /// </summary>
+        /// <param name="j">Jornada a la que se va a sumar el alumno.</param>
+        /// <param name="a">Alumno a sumar a la jornada.</param>
+        /// <returns>Jornada con el alumno sumado.</returns>
 		public static Jornada operator +(Jornada j, Alumno a)
 		{
 			foreach (Alumno item in j._alumnos)

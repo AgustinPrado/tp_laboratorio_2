@@ -77,6 +77,12 @@ namespace EntidadesAbstractas
         #endregion
 
         #region CONSTRUCTORES
+        /// <summary>
+        /// Constructor que crea una nueva Persona sin DNI.
+        /// </summary>
+        /// <param name="nombre">Nombre.</param>
+        /// <param name="apellido">Apellido.</param>
+        /// <param name="nacionalidad">Nacionalidad</param>
         public Persona(string nombre, string apellido, ENacionalidad nacionalidad)
         {
             this.Nombre = nombre;
@@ -84,25 +90,48 @@ namespace EntidadesAbstractas
             this.Nacionalidad = nacionalidad;
         }
 
+        /// <summary>
+        /// Constructor que crea una nueva Persona.
+        /// </summary>
+        /// <param name="nombre">Nombre.</param>
+        /// <param name="apellido">Apellido.</param>
+        /// <param name="dni">DNI (int).</param>
+        /// <param name="nacionalidad">Nacionalidad.</param>
         public Persona(string nombre, string apellido, int dni, ENacionalidad nacionalidad)
             : this(nombre, apellido, nacionalidad)
         {
             this.DNI = dni;
         }
 
+        /// <summary>
+        /// Constructor que crea una nueva Persona.
+        /// </summary>
+        /// <param name="nombre">Nombre.</param>
+        /// <param name="apellido">Apellido.</param>
+        /// <param name="dni">DNI (string).</param>
+        /// <param name="nacionalidad">Nacionalidad.</param>
         public Persona(string nombre, string apellido, string dni, ENacionalidad nacionalidad)
             : this(nombre, apellido, nacionalidad)
         {
             this.StringToDNI = dni;
         }
 
+        /// <summary>
+        /// Constructor usado para la serialización.
+        /// </summary>
         public Persona()
         {
-            // Para poder serializar.
+
         }
         #endregion
 
         #region MÉTODOS
+        /// <summary>
+        /// Valida que el dni corresponda con la nacionalidad y esté dentro del rango correcto.
+        /// </summary>
+        /// <param name="nacionalidad">Nacionalidad de la persona.</param>
+        /// <param name="dato">DNI de la persona.</param>
+        /// <returns>Devuelve el DNI ya validado.</returns>
         private int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
             if (nacionalidad == ENacionalidad.Argentino)

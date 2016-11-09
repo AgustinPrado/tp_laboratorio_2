@@ -60,6 +60,9 @@ namespace EntidadesInstanciables
         #endregion
 
         #region CONSTRUCTORES
+        /// <summary>
+        /// Constructor por defecto. Inicializa las listas de alumnos, instructores y jornadas.
+        /// </summary>
         public Gimnasio()
         {
             this._alumnos = new List<Alumno>();
@@ -69,6 +72,11 @@ namespace EntidadesInstanciables
         #endregion
 
         #region MÉTODOS
+        /// <summary>
+        /// Devuelve todos los datos del gimnasio.
+        /// </summary>
+        /// <param name="gim">Gimnasio a mostrar.</param>
+        /// <returns>Datos del gimnasio.</returns>
         private static string MostrarDatos(Gimnasio gim)
         {
             StringBuilder sb = new StringBuilder();
@@ -81,11 +89,20 @@ namespace EntidadesInstanciables
             return sb.ToString();
         }
 
+        /// <summary>
+        /// Devuelve todos los datos del gimnasio.
+        /// </summary>
+        /// <returns>Datos del gimnasio.</returns>
         public override string ToString()
         {
             return Gimnasio.MostrarDatos(this);
         }
 
+        /// <summary>
+        /// Guarda el gimnasio en un archivo XML.
+        /// </summary>
+        /// <param name="gimnasio">Gimnasio a mostrar.</param>
+        /// <returns>true si guardó exitosamente.</returns>
         public static bool Guardar(Gimnasio gimnasio)
         {
             string pathXml = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\gimnasio.xml";
@@ -97,7 +114,11 @@ namespace EntidadesInstanciables
             return true;
         }
 
-        public static Gimnasio Leer(Gimnasio gimnasio)
+        /// <summary>
+        /// Lee el gimnasio que se guardó en un archivo XML y la devuelve como Gimnasio.
+        /// </summary>
+        /// <returns>Gimnasio leído en formato Gimnasio.</returns>
+        public static Gimnasio Leer()
         {
             string pathXml = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\gimnasio.xml";
             Gimnasio auxGimnasio;
@@ -111,6 +132,12 @@ namespace EntidadesInstanciables
         #endregion
 
         #region SOBRECARGA DE OPERADORES
+        /// <summary>
+        /// Compara si el alumno está inscripto en el gimnasio.
+        /// </summary>
+        /// <param name="g">Gimnasio a comparar.</param>
+        /// <param name="a">Alumno a comparar.</param>
+        /// <returns>true si el alumno está inscripto en el gimnasio.</returns>
         public static bool operator ==(Gimnasio g, Alumno a)
         {
             foreach (Alumno item in g._alumnos)
@@ -121,11 +148,23 @@ namespace EntidadesInstanciables
             return false;
         }
 
+        /// <summary>
+        /// Compara si el alumno no está inscripto en el gimnasio.
+        /// </summary>
+        /// <param name="g">Gimnasio a comparar.</param>
+        /// <param name="a">Alumno a comparar.</param>
+        /// <returns>true si el alumno no está inscripto en el gimnasio.</returns>
         public static bool operator !=(Gimnasio g, Alumno a)
         {
             return !(g == a);
         }
 
+        /// <summary>
+        /// Compara si el instructor está dando clases en el gimnasio.
+        /// </summary>
+        /// <param name="g">Gimnasio a comparar.</param>
+        /// <param name="i">Instructor a comparar.</param>
+        /// <returns>true si el instructor está dando clases en el gimnasio.</returns>
         public static bool operator ==(Gimnasio g, Instructor i)
         {
             foreach (Instructor item in g._instructores)
@@ -136,11 +175,23 @@ namespace EntidadesInstanciables
             return false;
         }
 
+        /// <summary>
+        /// Compara si el instructor no está dando clases en el gimnasio.
+        /// </summary>
+        /// <param name="g">Gimnasio a comparar.</param>
+        /// <param name="i">Instructor a comparar.</param>
+        /// <returns>true si el instructor no está dando clases en el gimnasio.</returns>
         public static bool operator !=(Gimnasio g, Instructor i)
         {
             return !(g == i);
         }
 
+        /// <summary>
+        /// Genera una nueva jornada en el gimnasio con la clase dada.
+        /// </summary>
+        /// <param name="g">Gimnasio donde se genera la jornada.</param>
+        /// <param name="clase">Clase de la jornada.</param>
+        /// <returns>Gimnasio con la jornada generada.</returns>
         public static Gimnasio operator +(Gimnasio g, Gimnasio.EClases clase)
         {
             Jornada jornada = new Jornada(clase, (g == clase));
@@ -156,6 +207,12 @@ namespace EntidadesInstanciables
             return g;
         }
 
+        /// <summary>
+        /// Se agrega un alumno al gimnasio, validando que no esté previamente cargado.
+        /// </summary>
+        /// <param name="g">Gimnasio donde se agrega alumno.</param>
+        /// <param name="a">Alumno a agregar.</param>
+        /// <returns>Gimnasio con el alumno agregado.</returns>
         public static Gimnasio operator +(Gimnasio g, Alumno a)
         {
             foreach (Alumno item in g._alumnos)
@@ -169,15 +226,18 @@ namespace EntidadesInstanciables
             return g;
         }
 
+        /// <summary>
+        /// Se agrega un instructor al gimnasio, validando que no esté previamente cargado.
+        /// </summary>
+        /// <param name="g">Gimnasio donde se agrega alumno.</param>
+        /// <param name="i">Instructor a agregar.</param>
+        /// <returns>Gimnasio con el instructor agregado.</returns>
         public static Gimnasio operator +(Gimnasio g, Instructor i)
         {
             foreach (Instructor item in g._instructores)
             {
                 if (item.Equals(i))
-                {
-                    // EXCEPTION
                     return g;
-                }
             }
 
             g._instructores.Add(i);
@@ -185,6 +245,12 @@ namespace EntidadesInstanciables
             return g;
         }
 
+        /// <summary>
+        /// Devuelve el primer instructor del gimnasio capaz de dar la clase.
+        /// </summary>
+        /// <param name="g">Gimnasio donde está el instructor.</param>
+        /// <param name="clase">Clase que debe dar el instructor.</param>
+        /// <returns>Instructor del gimnasio capaz de dar la clase.</returns>
         public static Instructor operator ==(Gimnasio g, Gimnasio.EClases clase)
         {
             foreach (Instructor item in g._instructores)
@@ -197,6 +263,12 @@ namespace EntidadesInstanciables
             throw new SinInstructorException();
         }
 
+        /// <summary>
+        /// Devuelve el primer instructor del gimnasio que no es capaz de dar la clase.
+        /// </summary>
+        /// <param name="g">Gimnasio donde está el instructor.</param>
+        /// <param name="clase">Clase que debe dar el instructor.</param>
+        /// <returns>Instructor del gimnasio que no es capaz de dar la clase.</returns>
         public static Instructor operator !=(Gimnasio g, Gimnasio.EClases clase)
         {
             foreach (Instructor item in g._instructores)

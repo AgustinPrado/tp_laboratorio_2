@@ -18,3 +18,7 @@ C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3
 C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\obj\Debug\TestUnitarioExcepcionesNumerico.csprojResolveAssemblyReference.cache
 C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\obj\Debug\TestUnitarioExcepcionesNumerico.dll
 C:\Users\Agustín\Documents\tp_laboratorio_2\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\obj\Debug\TestUnitarioExcepcionesNumerico.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\bin\Debug\Archivos.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\bin\Debug\EntidadesInstanciables.dll
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\bin\Debug\Archivos.pdb
+D:\Prado\TPs\tp3Laboratorio\Prado.Agustin.2D.TP3\TestUnitarioExcepcionesNumerico\bin\Debug\EntidadesInstanciables.pdb
