@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EntidadesAbstractas;
-using System.Xml;
-using System.Xml.Serialization;
 
 namespace EntidadesInstanciables
 {

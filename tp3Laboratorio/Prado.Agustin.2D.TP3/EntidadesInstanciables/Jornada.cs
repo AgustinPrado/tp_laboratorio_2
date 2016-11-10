@@ -5,8 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Excepciones;
 using Archivos;
-using System.Xml;
-using System.Xml.Serialization;
 
 namespace EntidadesInstanciables
 {
