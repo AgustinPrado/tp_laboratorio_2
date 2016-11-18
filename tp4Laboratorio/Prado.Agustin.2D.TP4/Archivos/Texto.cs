@@ -29,7 +29,7 @@ namespace Archivos
 
                 return true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return false;
             }
@@ -52,7 +52,7 @@ namespace Archivos
 
                 return true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 datos = default(List<string>);
                 return false;
