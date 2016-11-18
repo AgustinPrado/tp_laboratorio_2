@@ -94,36 +94,43 @@ namespace Navegador
         {
             frmHistorial historial = new Navegador.frmHistorial();
 
+            // lanzo el form del historial de manera que no se pueda acceder al form inicial sin cerrar el nuevo form.
             historial.ShowDialog();
         }
 
         private void btnIr_Click(object sender, EventArgs e)
         {
+            // hago que la barra de progreso vuelva a 0.
             this.tspbProgreso.Value = 0;
 
-            if(!this.txtUrl.Text.Contains("http://"))
+            // en caso de que la url no contenga http://, se lo agrego al principio de la cadena.
+            if (!this.txtUrl.Text.Contains("http://"))
             {
                 this.txtUrl.Text = this.txtUrl.Text.Insert(0, "http://");
             }
 
             try
             {
+                // url absoluta, protocolo://dominio/ . Por eso previamente le agrego http:// si no lo tiene.
                 Uri link = new Uri(this.txtUrl.Text, UriKind.Absolute);
 
                 Descargador downloader = new Descargador(link);
                 downloader.eventProgress += new Descargador.EventProgress(this.ProgresoDescarga);
                 downloader.eventCompleted += new Descargador.EventCompleted(this.FinDescarga);
 
+                // hilo que va a iniciar la descarga de la página.
                 Thread hilo = new Thread(new ThreadStart(downloader.IniciarDescarga));
 
                 hilo.Start();
             }
             catch (Exception exc)
             {
+                // en caso de fallar, lanza un mensaje.
                 MessageBox.Show(exc.Message, "ERROR");
             }
             finally
             {
+                // al terminar, haya fallado o no, guarda la url que se buscó en el historial.
                 this.archivos.guardar(this.txtUrl.Text);
             }
         }

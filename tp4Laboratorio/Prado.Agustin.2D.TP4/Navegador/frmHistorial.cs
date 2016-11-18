@@ -25,12 +25,15 @@ namespace Navegador
 
             List<string> historial;
 
+            // leo el historial.
             if(archivos.leer(out historial))
             {
+                // paso la lista de strings del historial directamente al lstHistorial.
                 lstHistorial.DataSource = historial;
             }
             else
             {
+                // Si falla al leer muestra este mensaje.
                 MessageBox.Show("Error al leer el historial.", "ERROR");
             }
         }
